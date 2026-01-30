@@ -115,7 +115,13 @@ cualquier proyecto opensource de github.
 
 Deberás clonar tu fork en tu ordenador para poder empezar a trabajar en él:
 
-    git clone git@github.com:<Tu Usuario>/notas-java
+    git clone git@github.com:<Tu Usuario>/notas-java.git
+
+Si no tienes configurado el acceso ssh en github, deberás usar la opción:
+
+    git clone https://github.com/<Tu Usuario>/notas-java.git
+
+    
 
 ### 3. A trabajar
 
