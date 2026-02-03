@@ -4,7 +4,7 @@ public class Alumno extends AlumnoABC {
 
     //TODO
 	public static Alumno fromLine(String line){
-        return new Alumno();
+        return null;
     }
     
 }
