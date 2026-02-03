@@ -1,8 +1,9 @@
+//clase contenedor de los datos de Alumno
 package pio.daw.data;
 
 import java.util.List;
 
-abstract class AulaABC {
+public abstract class AulaABC {
 	List<AlumnoABC> alumnos;
 
 	
@@ -20,5 +21,7 @@ abstract class AulaABC {
 	public abstract AlumnoABC getBestAlumno();
 
 	public abstract AlumnoABC getWorstAlumno();
+	
+
 
 }

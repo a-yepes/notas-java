@@ -47,5 +47,6 @@ public class EstadisticaTest {
     
 }
 //mvn compile 
-//mvn package
+//mvn package: compila, corre los test y genera un archivo .jar (zip con todas las clases compiladas)
+//java -cp ./target/classes/pio.daw (java -cp/directorio de clases/ archivos a ejecutar)
 
